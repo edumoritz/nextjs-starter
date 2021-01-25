@@ -2,6 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Start Server:
+npx json-server server.json -p 3333 -w
+
 First, run the development server:
 
 ```bash
