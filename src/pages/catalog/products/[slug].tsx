@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 // import AddToCartModal from '../../../components/AddToCartModal';
 
 const AddToCartModal = dynamic(
-  () => import('../../../components/AddToCartModal'),
+  () => import('@/components/AddToCartModal'),
   { loading: () => <p>Carregando...</p> }
 )
 
